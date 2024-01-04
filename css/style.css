@@ -16,6 +16,10 @@
   --fontDescription: #4d4d4d;
   --btnColor: #5e6600;
 }
+/* share style */
+.default_padding {
+  padding: 50px 180px;
+}
 body {
   font-family: "Rufina", serif;
   font-family: "Lato", sans-serif;
@@ -131,13 +135,11 @@ nav ul li a:hover {
 }
 /* banner section style */
 .banner_container1 {
-  padding: 50px 180px;
   margin-top: 50px;
   height: calc(100vh - 132px);
   width: 100%;
 }
 .banner_container2 {
-  padding: 50px 180px;
   height: calc(100vh - 100px);
   width: 100%;
 }
@@ -229,4 +231,56 @@ nav ul li a:hover {
   width: 80%;
   position: absolute;
   bottom: 50px;
+}
+/* our menu section style */
+.our_menu_container {
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+.our_menu_title {
+  color: var(--fontBlack);
+  font-family: "Rufina", serif;
+}
+.our_menu_description {
+  color: var(--fontDescription);
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: Lato;
+  line-height: 120%;
+  letter-spacing: 0.48px;
+}
+.our_menu_container img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* our menu item container */
+.our_menu_item_container {
+  display: flex;
+  gap: 150px;
+  margin-top: 95px;
+}
+.our_menu_box {
+  margin-top: 50px;
+}
+.our_menu_left {
+  width: 50%;
+}
+.our_menu_price_title {
+  color: var(--fontBlack);
+  margin-top: 0;
+  text-align: right;
+}
+.our_menu_dotted {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+.our_menu_pro_name {
+  margin-top: 5px;
+  line-height: 65px;
+}
+.our_menu_right {
+  width: 50%;
 }
