@@ -164,7 +164,7 @@ nav ul li a:hover {
 .description {
   color: var(--fontWhit);
   font-family: "Lato", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin: 50px 0px;
   letter-spacing: 0.5px;
 }
@@ -283,4 +283,57 @@ nav ul li a:hover {
 }
 .our_menu_right {
   width: 50%;
+}
+/* excellent cook style */
+.excellent_cool_container {
+  height: 90vh;
+  background-color: var(--secondaryBg);
+}
+/* default padding style */
+.excellent_default_padding {
+  display: flex;
+  padding: 0px 180px;
+  gap: 20px;
+}
+/* excellent left */
+.excellent_left {
+  width: 50%;
+  height: 90vh;
+  position: relative;
+}
+.excellent_img1 {
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.excellent_img2 {
+  width: 40%;
+  position: absolute;
+  top: 7%;
+  left: 10%;
+}
+.excellent_img3 {
+  width: 45%;
+  position: absolute;
+  bottom: 1%;
+  left: 13.8%;
+}
+/* excellent right */
+.excellent_right {
+  width: 50%;
+  height: 90vh;
+  padding-top: 150px;
+  padding-left: 50px;
+  position: relative;
+}
+.excellent_description {
+  color: var(--fontDescription);
+  margin: 10px 0px;
+}
+.excellent_img4 {
+  width: 50%;
+  position: absolute;
+  right: 20%;
+  bottom: 3%;
 }
