@@ -163,6 +163,93 @@ nav ul li a:hover {
   text-align: center;
 }
 /* main style */
+/* starter section style */
+.starters_section {
+  padding: 50px 180px;
+  position: relative;
+  height: fit-content;
+}
+.starter_img {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.starters_title {
+  text-align: center;
+}
+.first_row_title {
+  color: var(--fontWhit);
+  font-size: 100px;
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  line-height: 100px;
+}
+.our_menu_description {
+  color: var(--fontDescription);
+  font-size: 20px;
+  font-family: Lato;
+  line-height: 120%;
+  letter-spacing: 0.48px;
+}
+/* starter img and name and price section style */
+.starter_img_name_price {
+  margin-top: 50px;
+  padding: 5px;
+  display: flex;
+  gap: 20px;
+}
+/* starter lest style */
+.starter_left {
+  width: 50%;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.starter_left img {
+  width: 75%;
+}
+/* starter right style */
+.starter_right {
+  width: 50%;
+  padding: 2px;
+  margin-top: 170px;
+}
+.second_title {
+  color: var(--fontWhit);
+  font-family: "Rufina", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 15px;
+}
+.our_menu_price_title {
+  color: var(--fontBlack);
+  margin-top: 0;
+  text-align: right;
+}
+.our_menu_dotted {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.our_menu_title {
+  color: var(--fontBlack);
+  font-family: "Rufina", serif;
+}
+.our_menu_pro_name {
+  margin-top: 5px;
+  line-height: 65px;
+}
+.price_and_title_box2 {
+  margin: 5px 0px;
+}
+.starter_description {
+  margin-top: 0px;
+  text-align: left;
+}
 /* --------------------------------------- */
 /* footer style */
 footer {
