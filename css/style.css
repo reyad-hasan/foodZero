@@ -425,9 +425,14 @@ nav ul li a:hover {
   font-weight: bold;
   letter-spacing: 0.48px;
   margin-top: 30px;
+  cursor: pointer;
 }
 .read_more i {
+  transition: 0.5s;
   margin-left: 10px;
+}
+.read_more:hover i {
+  transform: scale(1.5);
 }
 /* make a reservation style */
 .make_reservation_container {
@@ -475,5 +480,9 @@ nav ul li a:hover {
   border-radius: 3px;
   font-family: "Rufina", serif;
   text-align: center;
+  transition: 0.5s;
+}
+.book_now_btn:hover {
+  transform: scale(1.1);
 }
 /* ----- */
