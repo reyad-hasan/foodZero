@@ -287,6 +287,75 @@ nav ul li a:hover {
 .second_row_right img {
   width: 65%;
 }
+/* make a reservation style */
+.make_reservation_section {
+  padding: 50px 180px;
+  background-color: var(--secondaryBg);
+}
+.make_reservation_title {
+  width: 100%;
+  position: relative;
+  padding: 100px 0px;
+}
+.make_reservation_title img {
+  width: 25%;
+  position: absolute;
+  bottom: 20%;
+}
+.make_reservation_title h1,
+p {
+  margin-left: 250px;
+}
+.our_menu_title {
+  color: var(--fontBlack);
+}
+.make_reservation_description {
+  color: var(--fontBlack);
+  text-align: left;
+  margin-top: 10px;
+}
+.make_reservation_section form {
+  width: 100%;
+  margin-top: -40px;
+}
+.name_input {
+  width: 48%;
+  margin-left: 1%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid var(--fontBlack);
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.email {
+  width: 97%;
+  margin-left: 1%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid var(--fontBlack);
+  border-radius: 5px;
+  margin-top: 25px;
+}
+.btn_form {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.form_btn {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: var(--btnColor);
+  color: var(--fontWhit);
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.form_btn:hover {
+  transform: scale(1.1);
+}
 /* --------------------------------------- */
 /* footer style */
 footer {
