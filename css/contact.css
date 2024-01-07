@@ -25,7 +25,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 header {
-  background-image: url(../asset/img/menuHeaderbg.png);
+  background-image: url(../asset/img/contactBg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,6 +145,9 @@ nav ul li a:hover {
   justify-content: center;
   margin-top: 250px;
 }
+.contact_title {
+  justify-content: left;
+}
 .first_row_title {
   color: var(--fontWhit);
   font-size: 100px;
@@ -160,174 +163,10 @@ nav ul li a:hover {
   margin-top: 20px;
   text-align: center;
 }
-/* main style */
-/* starter section style */
-.starters_section {
-  padding: 50px 180px;
-  position: relative;
-  height: fit-content;
-}
-.starter_img {
-  width: 30%;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.starters_title {
-  text-align: center;
-}
-.first_row_title {
-  color: var(--fontWhit);
-  font-size: 100px;
-  font-family: "Rufina", serif;
-  font-weight: 700;
-  line-height: 100px;
-}
-.our_menu_description {
-  color: var(--fontDescription);
-  font-size: 20px;
-  font-family: Lato;
-  line-height: 120%;
-  letter-spacing: 0.48px;
-}
-/* starter img and name and price section style */
-.starter_img_name_price {
-  margin-top: 50px;
-  padding: 5px;
-  display: flex;
-  gap: 20px;
-}
-/* starter lest style */
-.starter_left {
-  width: 50%;
-  padding: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.starter_left img {
-  width: 75%;
-}
-/* starter right style */
-.starter_right {
-  width: 50%;
-  padding: 2px;
-  margin-top: 170px;
-}
-.mains_left {
-  margin-top: 0px;
-}
-.second_title {
-  color: var(--fontWhit);
-  font-family: "Rufina", serif;
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 55px;
-  margin-top: 15px;
-}
-.our_menu_price_title {
-  color: var(--fontBlack);
-  margin-top: 0;
-  text-align: right;
-}
-.our_menu_dotted {
-  font-size: 20px;
-  font-weight: bolder;
-  text-align: center;
-}
-
-.our_menu_title {
-  color: var(--fontBlack);
-  font-family: "Rufina", serif;
-}
-.our_menu_pro_name {
-  margin-top: 5px;
-  line-height: 65px;
-}
-.price_and_title_box2 {
-  margin: 5px 0px;
-}
-.mains_box2 {
-  margin: 50px 0px;
-}
-.starter_description {
-  margin-top: 0px;
+.contact_description {
   text-align: left;
 }
-/* mains section style */
-.mains_section {
-  padding: 100px 180px 50px 180px;
-}
-.mains_price {
-  margin-top: 80px;
-}
-/* pasties section style */
-.pasties_section {
-  padding: 200px 180px 150px 180px;
-}
-.pasties_title {
-  position: relative;
-}
-.pasties_title img {
-  width: 20%;
-  position: absolute;
-  top: -105%;
-  left: 38%;
-}
-.pasties_price {
-  margin-top: 120px;
-}
-/* make a reservation style */
-.make_reservation_container {
-  height: 60vh;
-  width: 100%;
-  background-color: var(--secondaryBg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.make_reservation_title {
-  text-align: center;
-}
-.make_time_container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5px;
-  width: 100%;
-}
-.make_reservation_description {
-  margin: 0px;
-}
-.make_time_date {
-  display: flex;
-  justify-content: space-between;
-  border: 2px solid black;
-  border-radius: 3px;
-  padding: 10px 15px;
-  width: 300px;
-  font-size: 20px;
-  margin: 50px;
-}
-.book_now_btn_div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.book_now_btn {
-  background-color: var(--primaryBg);
-  padding: 10px 33px;
-  color: var(--fontWhit);
-  font-size: 20px;
-  font-weight: bold;
-  border: none;
-  border-radius: 3px;
-  font-family: "Rufina", serif;
-  text-align: center;
-  transition: 0.5s;
-}
-.book_now_btn:hover {
-  transform: scale(1.1);
-}
+/* contact time information */
 /* --------------------------------------- */
 /* footer style */
 footer {
