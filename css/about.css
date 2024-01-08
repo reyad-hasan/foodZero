@@ -292,6 +292,49 @@ nav ul li a:hover {
 .looks_play_img {
   margin-top: 30px;
 }
+/* sophisticated process section style */
+.sophisticated_process_section {
+  padding: 0px 180px;
+  position: relative;
+  width: 100%;
+}
+.sophisticated_img1 {
+  width: 15%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.sophisticated_title {
+  color: var(--fontBlack);
+  text-align: center;
+  padding-top: 150px;
+}
+.sophisticated_first_row {
+  width: 100%;
+  border: 1px solid red;
+  margin-top: 150px;
+  display: flex;
+  gap: 20px;
+}
+.sophisticated_first_row_left_contend {
+  width: 50%;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sophisticated_first_row_img1 {
+  width: 80%;
+}
+.sophisticated_first_row_right_contend {
+  width: 50%;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+}
+.sophisticated_first_row_title {
+  color: var(--fontBlack);
+}
 /* --------------------------------------- */
 /* footer style */
 footer {
