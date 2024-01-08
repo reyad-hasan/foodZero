@@ -311,14 +311,12 @@ nav ul li a:hover {
 }
 .sophisticated_first_row {
   width: 100%;
-  border: 1px solid red;
   margin-top: 150px;
   display: flex;
   gap: 20px;
 }
 .sophisticated_first_row_left_contend {
   width: 50%;
-  border: 1px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,14 +326,109 @@ nav ul li a:hover {
 }
 .sophisticated_first_row_right_contend {
   width: 50%;
-  border: 1px solid blue;
   display: flex;
   align-items: center;
 }
 .sophisticated_first_row_title {
   color: var(--fontBlack);
+  font-size: 60px;
 }
-/* --------------------------------------- */
+/* 03.bake and 02.pickled section style */
+.bake_and_pickled_section {
+  width: 100%;
+  height: 120vh;
+  margin: 50px 0px;
+  position: relative;
+}
+.bake_and_pickled_img2 {
+  position: relative;
+  bottom: 30px;
+}
+/* bake and pickled container */
+.bake_and_pickled_container {
+  width: 100%;
+  padding: 0px 180px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 90vh;
+  margin-top: 50px;
+}
+/* bake contend */
+.bake_contend {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bake_description_margin {
+  margin: 20px 0px;
+}
+._bake_img {
+  width: 80%;
+}
+/* pickled contend */
+.pickled_contend {
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.pickled_title {
+  margin-top: 30px;
+}
+
+/* make a reservation style */
+.make_reservation_container {
+  height: 60vh;
+  width: 100%;
+  background-color: var(--secondaryBg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.make_reservation_title {
+  text-align: center;
+}
+.make_time_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  width: 100%;
+}
+.make_reservation_description {
+  margin: 0px;
+}
+.make_time_date {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 10px 15px;
+  width: 300px;
+  font-size: 20px;
+  margin: 50px;
+}
+.book_now_btn_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.book_now_btn {
+  background-color: var(--primaryBg);
+  padding: 10px 33px;
+  color: var(--fontWhit);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  font-family: "Rufina", serif;
+  text-align: center;
+  transition: 0.5s;
+}
+.book_now_btn:hover {
+  transform: scale(1.1);
+}
 /* footer style */
 footer {
   background-color: var(--primaryBg);
