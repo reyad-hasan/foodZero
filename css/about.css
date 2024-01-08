@@ -146,7 +146,8 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: right;
-  margin-left: -210px;
+  margin-left: -200px;
+  padding-top: 150px;
 }
 .first_row_title {
   color: var(--fontWhit);
@@ -164,9 +165,6 @@ nav ul li a:hover {
   line-height: 25px;
 }
 /* main section style */
-/* main {
-  position: relative;
-} */
 /* our story section style */
 .our_story_section {
   width: 100%;
