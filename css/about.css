@@ -161,3 +161,111 @@ nav ul li a:hover {
   margin-top: 15px;
   line-height: 25px;
 }
+
+/* --------------------------------------- */
+/* footer style */
+footer {
+  background-color: var(--primaryBg);
+}
+.footer_first_container {
+  padding: 50px 18px 50px 180px;
+  display: flex;
+}
+.box1 {
+  width: 25%;
+  height: 230px;
+  display: flex;
+  align-items: center;
+}
+.footer_logo {
+  color: var(--fontWhit);
+  font-family: "Rufina", serif;
+  font-size: 45px;
+  line-height: 40px;
+}
+.box2 {
+  width: 25%;
+  height: 230px;
+}
+.box3 {
+  width: 50%;
+  height: 230px;
+}
+.footer_title {
+  color: var(--fontWhit);
+  font-family: "Rufina", serif;
+  font-size: 25px;
+  font-style: normal;
+  margin: 40px 0px;
+}
+.footer_contact {
+  color: var(--fontWhit);
+  font-family: "Lato", serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  margin-bottom: 10px;
+}
+.box3 input {
+  background-color: var(--primaryBg);
+  border: 1px solid var(--fontWhit);
+  padding: 15px;
+  width: 60%;
+  font-size: 20px;
+  color: var(--fontWhit);
+  font-family: "Rufina", serif;
+}
+.box3 button {
+  background-color: var(--btnColor);
+  border: none;
+  padding: 17px;
+  font-size: 20px;
+  font-family: "Rufina", serif;
+  color: var(--fontWhit);
+  margin-left: 10px;
+}
+.box3 p {
+  color: var(--fontWhit);
+  font-family: "Lato", serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+  margin-top: 10px;
+}
+/* divider style */
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--fontWhit);
+}
+/* footer second contend */
+.footer_second_contend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 180px;
+  color: var(--fontWhit);
+  font-size: 16px;
+}
+.social_link {
+  display: flex;
+  gap: 10px;
+}
+.link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.link:hover {
+  background-color: var(--fontWhit);
+  color: var(--primaryBg);
+  transform: scale(1.1);
+}
+.link i {
+  font-size: 20px;
+}
