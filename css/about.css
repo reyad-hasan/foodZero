@@ -162,6 +162,9 @@ nav ul li a:hover {
   line-height: 25px;
 }
 /* main section style */
+main {
+  position: relative;
+}
 /* our story section style */
 .our_story_section {
   width: 100%;
@@ -202,7 +205,69 @@ nav ul li a:hover {
   top: -15%;
   left: -33%;
 }
-
+/* restaurant manager section style */
+.restaurant_manager_section {
+  width: 100%;
+  padding: 0px 180px;
+  margin: 100px 0px 50px 0px;
+  display: flex;
+  gap: 20px;
+}
+/* manager left contend */
+.manager_left_contend {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.fruit_box_title {
+  color: var(--fontBlack);
+  font-family: "Rufina", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.employee_name {
+  color: var(--fontBlack);
+  font-family: "Rufina", sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.48px;
+  margin-top: 20px;
+}
+.manager_img {
+  width: 60%;
+  margin-top: 10px;
+}
+/* manager right contend */
+.manager_right_contend {
+  width: 50%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+/* executive_chef_section style */
+.executive_chef_section {
+  width: 100%;
+  height: 40vh;
+  padding: 0px 180px;
+  display: flex;
+}
+/* chef_left_contend */
+.chef_left_contend {
+  width: 50%;
+  text-align: right;
+  padding-top: 190px;
+}
+/* chef_right_contend */
+.chef_right_contend {
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  right: 7%;
+  top: 57%;
+}
+.chef_img {
+  width: 48%;
+  margin-top: 10px;
+}
 /* --------------------------------------- */
 /* footer style */
 footer {
