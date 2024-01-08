@@ -135,7 +135,7 @@ nav ul li a:hover {
 }
 /* navbar title style */
 .portfolio_nav_container {
-  background-image: url(../asset/img/portfolioHeader_bg.png);
+  background-image: url(../asset/img/singleHeaderBg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,6 +151,7 @@ nav ul li a:hover {
   line-height: 100px;
   text-align: center;
   padding-top: 180px;
+  line-height: 120px;
 }
 .scroll {
   color: var(--fontWhit);
@@ -163,6 +164,148 @@ nav ul li a:hover {
   left: 850px;
 }
 /* main section style */
+/* melt and best main section style */
+.melt_and_best_main_section {
+  position: relative;
+  height: 1300px;
+}
+/* melt in your mouth style */
+.melt_your_mouth_section {
+  width: 100%;
+  height: 670px;
+  padding: 0px 280px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+/* melt in your mouth left */
+.mouth_left {
+  width: 40%;
+  background-image: url(../asset/img/meltimg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+/* melt in your mouth right */
+.mouth_right {
+  width: 40%;
+}
+.fruit_box_title {
+  color: var(--fontBlack);
+  font-family: "Rufina", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.description {
+  color: var(--fontBlack);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  line-height: 25px;
+}
+.melt_description {
+  margin-top: 30px;
+}
+/* the best test section style */
+.the_best_test_section {
+  width: 100%;
+  height: 900px;
+  padding: 0px 180px 0px 550px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  position: absolute;
+  top: 400px;
+}
+/* the_best_left */
+.the_best_left {
+  width: 822px;
+  background-image: url(../asset/img/thebestimg.png);
+}
+/* the_best_right */
+.the_best_right {
+  width: 40%;
+  padding-bottom: 200px;
+  display: flex;
+  align-items: end;
+}
+/* cooking suggestion section style */
+.cooking_suggestion_section {
+  padding: 0px 275px;
+}
+.contend_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.our_menu_description {
+  color: var(--fontDescription);
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.48px;
+}
+.cooking_title {
+  margin-top: 35px;
+  text-align: center;
+}
+/* cooking img box style */
+.cooking_img_box {
+  width: 100%;
+  height: 756px;
+  margin: 100px 0px;
+  background-image: url(../asset/img/breadonwhiteceramicplate1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* previous and next section style */
+.previous_and_next_section {
+  width: 100%;
+  height: 250px;
+  background-color: var(--secondaryBg);
+  display: flex;
+  padding: 0px 180px;
+}
+/* previous contend */
+.previous_contend {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pre_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: var(--primaryBg);
+}
+.arrow_hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+.arrow_hover:hover {
+  transform: scale(1.3);
+}
+.pre_title_name {
+  color: var(--primaryBg);
+  font-size: 30px;
+  font-family: "Rufina", sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+/* middle contend */
+.middle_contend {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* --------------------------------------- */
 /* footer style */
 footer {
