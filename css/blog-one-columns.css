@@ -135,11 +135,11 @@ nav ul li a:hover {
 }
 /* navbar title style */
 .portfolio_nav_container {
-  background-image: url(../asset/img/portfolioHeader_bg.png);
+  background-image: url(../asset/img/blog_one_header_bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
   padding-top: 100px;
   position: relative;
 }
@@ -152,17 +152,136 @@ nav ul li a:hover {
   text-align: center;
   padding-top: 180px;
 }
-.scroll {
+.description {
   color: var(--fontWhit);
-  font-family: "Rufina", serif;
-  letter-spacing: 2px;
-  rotate: 90deg;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  line-height: 25px;
   text-align: center;
-  position: absolute;
-  bottom: 130px;
-  left: 850px;
 }
 /* main section style */
+/* blog main section style */
+.blog_main_section {
+  padding: 0px 180px;
+  margin: 100px 0px;
+}
+.blog_file_path {
+  color: var(--fontDescription);
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  margin-bottom: 50px;
+  margin-left: 78px;
+}
+.blog_file_path span {
+  color: #b0b0b0;
+}
+/* fruit details style */
+.fruit_details_container {
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.fruit_details_img {
+  width: 80%;
+  border-radius: 5px;
+}
+/* fruit details left */
+.fruit_details_left {
+  width: 50%;
+}
+.fruit_details_img_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.fashionBtn {
+  color: var(--fontWhit);
+  font-family: Rufina;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background-color: var(--btnColor);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  position: absolute;
+  top: 12px;
+  right: 90px;
+}
+.fruit_details_description_box img {
+  width: 14%;
+}
+.fruit_name_and_title {
+  width: 100%;
+  padding: 25px 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fruit_name_and_title p {
+  color: var(--btnColor);
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 0.36px;
+}
+.fruit_title_and_description {
+  width: 100%;
+  padding: 0px 115px;
+}
+.read_more {
+  color: var(--fontDescription);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.read_more i {
+  transition: 0.5s;
+  margin-left: 10px;
+}
+.read_more:hover i {
+  transform: scale(1.5);
+}
+.our_menu_dotted {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+.fruit_box_title {
+  color: var(--fontBlack);
+  font-family: Rufina;
+  font-size: 40px;
+  font-weight: 700;
+}
+/* previous and next section style */
+.previous_and_next_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_box_pre_next {
+  display: flex;
+  gap: 20px;
+}
+.box_pre_next {
+  padding: 10px 15px;
+  border: 2px solid var(--primaryBg);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.box_pre_next:hover {
+  transform: scale(1.1);
+}
 /* --------------------------------------- */
 /* footer style */
 footer {
