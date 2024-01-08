@@ -137,16 +137,62 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 /* navbar title style */
-.navbar_title {
+.contact_nav_container {
   width: 100%;
-  height: 100%;
-  padding: 0px 180px;
+  height: 90%;
   display: flex;
-  justify-content: center;
-  margin-top: 250px;
+  gap: 20px;
 }
-.contact_title {
-  justify-content: left;
+.contact_nav_title {
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.title_box_contact {
+  color: white;
+}
+.contact_nav_time {
+  width: 50%;
+  height: 80%;
+  padding: 0px 250px;
+  display: flex;
+  align-items: center;
+  margin-top: 160px;
+}
+.nav_time_first_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_time_first_row h3 {
+  color: var(--fontWhit);
+  font-family: "Rufina", serif;
+}
+.nav_time_first_row p {
+  color: var(--fontWhit);
+  font-family: "Rufina", serif;
+}
+.our_menu_dotted {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: var(--fontWhit);
+  margin: 20px 0px;
+}
+.lunch_dinner_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brunch {
+  color: var(--fontWhit);
+  font-size: 18px;
+}
+.brunch p {
+  margin: 10px 0px;
 }
 .first_row_title {
   color: var(--fontWhit);
@@ -165,44 +211,10 @@ nav ul li a:hover {
 }
 .contact_description {
   text-align: left;
+  font-family: "Rufina", serif;
 }
 /* contact time information */
-.contact_time_information {
-  width: 800px;
-  height: 300px;
-  margin-top: 180px;
-  margin-left: 50px;
-  border: 1px solid red;
-  position: relative;
-}
-.time_dates {
-  color: var(--fontWhit);
-  font-family: "Rufina", serif;
-  font-size: 25px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.our_menu_dotted {
-  font-size: 20px;
-  font-weight: bolder;
-  text-align: center;
-  color: var(--fontWhit);
-  margin: 25px 0px;
-}
-.brunch_lunch_dinner {
-  display: flex;
-  border: 1px solid green;
-}
-.brunch {
-  color: var(--fontWhit);
-  font-family: "Lato", serif;
-  font-size: 20px;
-}
-.brunch p {
-  margin-bottom: 10px;
-}
+
 /* main section style */
 .contact_first_row {
   padding: 50px 180px;
@@ -303,8 +315,7 @@ nav ul li a:hover {
   position: absolute;
   bottom: 20%;
 }
-.make_reservation_title h1,
-p {
+.make_reservation_title .make_left {
   margin-left: 250px;
 }
 .our_menu_title {
