@@ -30,6 +30,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  margin-top: -250px;
 }
 /* navbar style */
 nav {
@@ -37,6 +38,9 @@ nav {
   padding: 5px 100px;
   display: flex;
   gap: 10px;
+  position: fixed;
+  background-color: var(--primaryBg);
+  z-index: 2;
 }
 /* nav_left style */
 .nav_left {
@@ -59,7 +63,7 @@ nav ul {
   position: fixed;
   width: 15%;
   height: 250px;
-  background-color: transparent;
+  background-color: var(--primaryBg);
   top: 81px;
   left: -100%;
   text-align: center;
@@ -142,6 +146,7 @@ nav ul li a:hover {
   height: 100%;
   padding: 0px 180px;
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-top: 250px;
 }

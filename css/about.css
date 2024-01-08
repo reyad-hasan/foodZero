@@ -34,9 +34,11 @@ header {
 /* navbar style */
 nav {
   width: 100%;
+  background-color: var(--primaryBg);
   padding: 5px 100px;
   display: flex;
-  gap: 10px;
+  position: fixed;
+  z-index: 5;
 }
 /* nav_left style */
 .nav_left {
@@ -59,7 +61,7 @@ nav ul {
   position: fixed;
   width: 15%;
   height: 250px;
-  background-color: transparent;
+  background-color: var(--primaryBg);
   top: 81px;
   left: -100%;
   text-align: center;

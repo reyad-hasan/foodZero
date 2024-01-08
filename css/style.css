@@ -31,9 +31,12 @@ header {
 /* navbar style */
 nav {
   width: 100%;
+  background-color: var(--primaryBg);
   padding: 5px 100px;
   display: flex;
-  gap: 10px;
+  position: fixed;
+  z-index: 5;
+  margin-top: -50px;
 }
 /* nav_left style */
 .nav_left {
