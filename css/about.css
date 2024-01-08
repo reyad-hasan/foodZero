@@ -158,8 +158,49 @@ nav ul li a:hover {
   font-family: "Rufina", sans-serif;
   font-size: 18px;
   letter-spacing: 0.5px;
-  margin-top: 15px;
+  margin-top: 20px;
   line-height: 25px;
+}
+/* main section style */
+/* our story section style */
+.our_story_section {
+  width: 100%;
+  height: 60vh;
+  padding: 0px 180px;
+  margin: 130px 0px 50px 0px;
+  display: flex;
+  gap: 20px;
+}
+/* our story left */
+.our_story_left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our_menu_title {
+  color: var(--fontBlack);
+}
+.excellent_description {
+  color: var(--fontDescription);
+}
+/* our story right */
+.our_story_right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.our_story_img1 {
+  width: 80%;
+}
+.our_story_img2 {
+  position: absolute;
+  top: -15%;
+  left: -33%;
 }
 
 /* --------------------------------------- */
