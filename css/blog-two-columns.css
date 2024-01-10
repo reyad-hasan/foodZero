@@ -162,6 +162,79 @@ nav ul li a:hover {
   text-align: center;
 }
 /* main section style */
+/* fruit details style */
+.fruit_details_container {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 20px;
+  padding: 0px 180px;
+}
+.fruit_details_img {
+  width: 80%;
+  border-radius: 5px;
+}
+/* fruit details left */
+.fruit_details_left,
+.fruit_details_right {
+  width: 50%;
+}
+.fruit_details_img_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.fashionBtn {
+  color: var(--fontWhit);
+  font-family: Rufina;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background-color: var(--btnColor);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  position: absolute;
+  top: 12px;
+  right: 90px;
+}
+.fruit_details_description_box img {
+  width: 14%;
+}
+.fruit_name_and_title {
+  width: 100%;
+  padding: 25px 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fruit_name_and_title p {
+  color: var(--btnColor);
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 0.36px;
+}
+.fruit_title_and_description {
+  width: 100%;
+  padding: 0px 115px;
+}
+.read_more {
+  color: var(--fontDescription);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.read_more i {
+  transition: 0.5s;
+  margin-left: 10px;
+}
+.read_more:hover i {
+  transform: scale(1.5);
+}
 /* blog main section style */
 .blog_main_section {
   padding: 0px 180px;
@@ -177,6 +250,53 @@ nav ul li a:hover {
 }
 .blog_file_path span {
   color: #b0b0b0;
+}
+/* main section style */
+/* two column main container */
+.two_column_main_container {
+  width: 100%;
+  border: 1px solid red;
+}
+/* two column first row */
+.two_column_first_row {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+/* first row left */
+.first_row_left {
+  width: 50%;
+  border: 1px solid green;
+}
+.img_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.img_optimize {
+  width: 75%;
+}
+.fashion {
+  background-color: var(--btnColor);
+  color: var(--fontWhit);
+  font-size: 18px;
+  font-family: "Rufina", serif;
+  font-weight: bold;
+  width: 110px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  position: absolute;
+  right: 15%;
+  top: 3%;
+}
+/* first row right */
+.first_row_right {
+  width: 50%;
+  border: 1px solid blue;
 }
 /* --------------------------------------- */
 /* footer style */
