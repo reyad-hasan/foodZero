@@ -173,7 +173,6 @@ nav ul li a:hover {
   font-size: 24px;
   letter-spacing: 0.48px;
   margin-bottom: 50px;
-  margin-left: 78px;
 }
 .blog_file_path span {
   color: #b0b0b0;
@@ -182,22 +181,106 @@ nav ul li a:hover {
 /* column one style */
 .column_one {
   width: 100%;
-  border: 1px solid red;
   display: flex;
   gap: 20px;
+  margin-bottom: 100px;
 }
 /* column one left */
 .column_one_left {
   width: 50%;
-  border: 1px solid green;
 }
-.column_left_img {
-  width: 70%;
+.column_one_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.img_optimize {
+  width: 80%;
+}
+.fashion {
+  background-color: var(--btnColor);
+  color: var(--fontWhit);
+  font-size: 18px;
+  font-family: "Rufina", serif;
+  font-weight: bold;
+  width: 110px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  position: absolute;
+  right: 15%;
+  top: 3%;
+}
+.name_and_description {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 80px;
+  margin-top: 20px;
+}
+.name_and_date {
+  color: var(--btnColor);
+  font-family: "Lato", serif;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+}
+.fruit_box_title {
+  color: var(--fontBlack);
+  font-family: Rufina;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 0px 100px;
+  margin-top: 10px;
+}
+.our_menu_dotted {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 0px 100px;
+}
+.description {
+  color: var(--fontWhit);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+.excellent_description {
+  color: var(--fontDescription);
+  margin: 10px 0px;
+  text-align: left;
+  padding: 0px 100px;
+}
+.read_more {
+  color: var(--fontDescription);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  margin-top: 30px;
+  cursor: pointer;
+  padding: 0px 100px;
+}
+.read_more i {
+  transition: 0.5s;
+  margin-left: 10px;
+}
+.read_more:hover i {
+  transform: scale(1.5);
 }
 /* column one right */
 .column_one_right {
   width: 50%;
-  border: 1px solid blue;
 }
 /* --------------------------------------- */
 /* footer style */
