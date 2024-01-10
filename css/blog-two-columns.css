@@ -343,10 +343,21 @@ nav ul li a:hover {
 .read_more:hover i {
   transform: scale(1.5);
 }
-/* first row right */
-.first_row_right {
-  width: 50%;
-  border: 1px solid blue;
+.pagination_box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  border: 2px solid var(--fontBlack);
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.box:hover {
+  transform: scale(1.1);
 }
 /* --------------------------------------- */
 /* footer style */
