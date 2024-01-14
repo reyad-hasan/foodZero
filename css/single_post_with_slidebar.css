@@ -187,16 +187,14 @@ main {
   padding: 80px 0px 130px 0px;
 }
 .main_section {
-  border: 1px solid green;
   width: 100%;
   padding: 0px 180px;
   display: flex;
-  gap: 30px;
+  gap: 70px;
 }
 /* left main container style */
 .left_main_container {
   width: 75%;
-  border: 1px solid black;
 }
 .blog_file_path {
   color: var(--fontDescription);
@@ -295,14 +293,15 @@ main {
 /* right main container style */
 .right_main_container {
   width: 25%;
-  border: 1px solid black;
+}
+.right_main_container hr {
+  margin-top: 7px;
 }
 /* search box */
 .search_box {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid red;
   padding: 0px 50px;
 }
 .search_title {
@@ -312,12 +311,11 @@ main {
 }
 .divider {
   width: 100%;
-  height: 1px;
+  height: 10px;
   background-color: var(--fontWhit);
 }
 /* categories box */
 .categories_box {
-  border: 1px solid blueviolet;
   margin-top: 90px;
 }
 .categories_title {
@@ -331,7 +329,60 @@ main {
   font-weight: bolder;
   text-align: center;
 }
-.
+.fashion_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  color: var(--fontBlack);
+  padding: 5px 0px;
+}
+/* recent comment box */
+.recent_comment_box {
+  margin-top: 90px;
+}
+.comment_name_box {
+  margin-top: 25px;
+}
+.comment_name {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 0px;
+}
+.archives_box {
+  font-size: 20px;
+  font-weight: bold;
+}
+.post_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0px;
+}
+.post_title {
+  color: var(--fontBlack);
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Rufina", serif;
+}
+.post_name {
+  color: #b0b0b0;
+  margin-top: 5px;
+
+  /* Widgets Comments */
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.title_btn_box {
+  padding: 10px 0px;
+}
+.title_btn_right {
+  margin: 5px;
+}
 /* --------------------------------------- */
 /* footer style */
 footer {
