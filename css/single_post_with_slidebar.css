@@ -344,9 +344,9 @@ main {
   margin-top: 25px;
 }
 .comment_name {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
-  padding: 4px 0px;
+  padding: 7px 0px;
 }
 .archives_box {
   font-size: 20px;
@@ -469,11 +469,6 @@ main {
 .comment_description_box {
   display: flex;
   gap: 20px;
-}
-.comment_name {
-  color: var(--fontBlack);
-  font-size: 24px;
-  letter-spacing: 0.48px;
 }
 .comment_time_and_date {
   color: #b0b0b0;
