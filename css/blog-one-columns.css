@@ -282,6 +282,28 @@ nav ul li a:hover {
 .column_one_right {
   width: 50%;
 }
+/* loading btn style */
+.loading_btn_box {
+  width: 100%;
+  margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading_btn {
+  padding: 10px 30px;
+  font-size: 20px;
+  font-family: "Lato", serif;
+  background-color: var(--fontWhit);
+  color: var(--fontBlack);
+  border-radius: 3px;
+  border: 2px solid var(--fontBlack);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.loading_btn:hover {
+  transform: scale(1.1);
+}
 /* --------------------------------------- */
 /* footer style */
 footer {
